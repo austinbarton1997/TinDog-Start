@@ -1,0 +1,36 @@
+/* DEFAULT */
+
+h1 {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* CLASS */
+
+.container-fluid {
+  padding: 3% 15%;
+  /* Top / Bottom 3%. Left / Right 15% */
+}
+
+.navbar-brand {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2.5em;
+}
+
+.iphone {
+  transform: rotate(20deg);
+}
+
+/* ID */
+
+#title {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-color:#ff4c68;
+  background-position: 150px;
+}
