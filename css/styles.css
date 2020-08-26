@@ -47,10 +47,6 @@ p {
   font-size: 1.20rem;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
-}
-
 /* Features */
 .features-section {
   background-color: blue;
@@ -145,17 +141,11 @@ p {
   background-color: #ff4c68;
 }
 
-#testimonials {
+#testimonials, #press {
   color: white;
   background-color: #ef8172;
   text-align: center;
   position: relative;
-}
-
-#press {
-  text-align: center;
-  background-color: #ef8172;
-  padding-bottom: 3%;
 }
 
 #pricing {
