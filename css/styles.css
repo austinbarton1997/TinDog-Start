@@ -1,36 +1,175 @@
-/* DEFAULT */
-
-h1 {
-  line-height: 1.5;
-  font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-  margin-top: 1em;
-  margin-bottom: 1em;
+/*********************** DEFAULT ***********************/
+body {
+  margin: 0;
 }
 
-/* CLASS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+}
 
+p {
+  color: #8f8f8f;
+}
+
+/*********************** CLASS ***********************/
 .container-fluid {
-  padding: 3% 15%;
-  /* Top / Bottom 3%. Left / Right 15% */
+  padding: 3% 15% 7%;
+}
+
+/* Headings */
+.big-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+  color: white;
+}
+
+.section-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
 }
 
 .navbar-brand {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 2.5em;
 }
 
-.iphone {
-  transform: rotate(20deg);
+.nav-item {
+  padding: 0 18px;
 }
 
-/* ID */
+.nav-link {
+  font-size: 1.20rem;
+}
 
-#title {
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Features */
+.features-section {
+  background-color: blue;
+  n margin-top: 30%;
+}
+
+.features {
+  padding: 5%;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.footer-download {
+  margin: 1%;
+}
+
+/* Title Images */
+.title-img {
+  width: 60%;
+  right: 30%;
+  transform: rotate(25deg);
   position: absolute;
+}
+
+@media (max-width:990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* ICONS */
+.icons {
+  color: #ef8172;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+.footer-icons {
+  color: black;
+  padding: 1%;
+}
+
+/* Testimonials */
+.testimonial-img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Pricing */
+.carousel-item {
+  padding: 5% 15%
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*********************** ID ***********************/
+#title {
   width: 100%;
   height: 90%;
-  background-color:#ff4c68;
-  background-position: 150px;
+  background-color: #ff4c68;
+}
+
+#testimonials {
+  color: white;
+  background-color: #ef8172;
+  text-align: center;
+  position: relative;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+#cta {
+  padding: 4%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+#footer {
+  text-align: center;
+  padding: 3%;
 }
