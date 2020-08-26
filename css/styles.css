@@ -29,6 +29,11 @@ p {
   line-height: 1.5;
 }
 
+/* Secontions */
+.colored-sections {
+  background-color: #ff4c68;
+}
+
 /* Nav Bar */
 .navbar {
   padding: 0 0 4.5rem 0;
@@ -138,7 +143,6 @@ p {
 #title {
   width: 100%;
   height: 90%;
-  background-color: #ff4c68;
 }
 
 #testimonials, #press {
@@ -156,7 +160,6 @@ p {
 #cta {
   padding: 4%;
   text-align: center;
-  background-color: #ff4c68;
 }
 
 #footer {
